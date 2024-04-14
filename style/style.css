@@ -81,3 +81,37 @@ body {
   color: var(--color-white);
   font-size: var(--font-size-18px);
 }
+
+/* MAIN */
+
+h2{
+  font-family: "Roboto-Bold";
+}
+
+/* MAP */
+
+.map{
+  width: 1140px;
+  height: 626px;
+  background-color: #fff;
+}
+.map-head{
+   margin: 0 auto;
+   height: 47px;
+   margin-top: 60px;
+   margin-left: 150px;
+   font-size: 40px;
+   font-weight: 500;
+}
+.map-body{
+  background-image: url('/images/map.jpg');
+  width: 100%;
+  height: 457px;
+  margin-top: 60px;
+}
+.map-head-city{
+  color: #C41429;
+  text-decoration: underline;
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+}
