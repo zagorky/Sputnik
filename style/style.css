@@ -81,3 +81,40 @@ body {
   color: var(--color-white);
   font-size: var(--font-size-18px);
 }
+
+/* video */
+
+.video{
+  background-color: #fff ;
+  width: 1140px;
+  height: 580px;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns:repeat(2, 570px);
+}
+
+.about-us-video{
+margin: auto;
+}
+
+.about-us-content{
+  width: 485px;
+  height: 375px;
+  margin: 0 auto;
+} 
+
+.about-us-head{
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Roboto-Medium";
+}
+.about-us-text{
+  margin-top: 80px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #222222;
+}
+.about-us-text2{
+margin-top: 80px;
+}
