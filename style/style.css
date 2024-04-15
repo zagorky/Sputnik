@@ -90,4 +90,6 @@ margin: 0 auto;}
 .head-faq{
   font-family: "Roboto-Bold";
   font-size: 40px;
+  margin-left: 15px !important;
 }
+
