@@ -1,64 +1,55 @@
 
-
-.acc-item {
-  margin-bottom: 0.5rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 1px 1px #D5D5D5;}
-
-.acc__header {
-  height: 80px;
+.faq{
+  margin: 80px auto 80px auto;
   width: 1140px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1rem;
-  color: #222222;
+}
+.faq-head{
+  line-height: 46.88px;
+  font-family: "Roboto-Regular";
+  font-weight: 500;
+  font-size: 40px;
+
+}
+
+.accordion {
   font-family: "Roboto-Bold";
   font-size: 18px;
   font-weight: 500;
   background-color: #ffffff;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  color: #222222;
   cursor: pointer;
-  transition: background-color 0.2s ease-out;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border: none;
 }
 
-.acc__header::after {
-  flex-shrink: 0;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-left: auto;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-size: 1.25rem;
-  content: "";
-  transition: transform 0.2s ease-out;
+.divider{
+  background-color:#D5D5D5;
+  color: #D5D5D5;
+  height: 0.5px;
 }
-.acc__header:active{
-  color: #C41429;
-
-}
-.acc-item_show .acc_header::after,
-.acc-item_slidedown .acc__header::after {
-  transform: rotate(-180deg);
+.active, .accordion:hover {
+  color: #C41429;  
 }
 
-.acc__header:hover {
-  background-color: #e0e0de;
-}
-
-.acc-item:not(.acc-item_show) .acc__header {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.acc-content {
-  padding: 0.75rem 1rem;
-  background: #fff;
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.acc-item:not(.acc-item_show) .acc__body {
+.panel {
+  padding: 0 18px;
+  background-color: white;
   display: none;
+  overflow: hidden;
+}
+
+.acc-text{
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 30px 0 30px 0;
+  line-height: 24px;
 }
