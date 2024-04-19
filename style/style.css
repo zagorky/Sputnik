@@ -84,6 +84,50 @@ body {
   font-size: var(--font-size-18px);
 }
 
+/* MAIN */
+
+/* h2{
+  font-family: "Roboto-Medium";
+} */
+
+/* MAP */
+
+.map{
+  width: 1140px;
+  height: 626px;
+  background-color: #fff;
+  margin: auto;
+}
+.map-head{
+   margin-left: 80px !important;
+   display: flex;
+   justify-content:start;
+   height: 47px;
+   margin-top: 60px;
+   margin-left: 150px;
+   font-size: 40px;
+   font-weight: 500;
+}
+.gmap{
+  width: 1140px;
+  height: 457px;
+  margin-top: 20px;
+  border: 0;
+  filter:grayscale(1);
+}
+.map-head-city{
+  color: #C41429 !important;
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+}
+.divider-red{
+  height: 2px;
+  color: #C41429;
+  background-color: #C41429;
+  margin-left: 415px;
+  width: 365px;
+}
+
 /* instagram */
 .instagram{
   max-width: 100%;
