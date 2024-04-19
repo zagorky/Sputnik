@@ -106,14 +106,15 @@ h2{
    font-size: 40px;
    font-weight: 500;
 }
-.map-body{
-  background-image: url('/images/map.jpg');
-  width: 100%;
+.gmap{
+  width: 1140px;
   height: 457px;
-  margin-top: 60px;
+  margin-top: 20px;
+  border: 0;
+  filter:grayscale(1);
 }
 .map-head-city{
-  color: #C41429;
+  color: #C41429 !important;
   font-family: "Roboto-Regular";
   font-weight: 400;
 }
