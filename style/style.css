@@ -115,6 +115,7 @@ body {
   display: flex;
   flex-direction: row;
   column-gap: 30px;
+}
 
 /* form */
 .subscribe {
@@ -268,6 +269,5 @@ body {
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, ); 
 }
-
 
 
