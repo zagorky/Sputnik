@@ -84,16 +84,23 @@ body {
   font-size: var(--font-size-18px);
 }
 
+
+/* MAIN */
+
+
+
 /* faq */
 .faq{
   width: 1140px;
   height: 666px;
-margin: 0 auto;}
+  margin: 0 auto;
+  
+}
 
 .head-faq{
-  font-family: "Roboto-Bold";
+  font-family: "Roboto-Regular";
   font-size: 40px;
-  margin-left: 15px !important;
+  margin-left: 5px !important;
 }
 
 
@@ -117,7 +124,7 @@ margin: auto;
   width: 485px;
   height: 298px;
   margin: 0 auto;
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular",sans-serif;
 
 } 
 
@@ -125,7 +132,7 @@ margin: auto;
   margin-top: 80px;
   font-size: 40px;
   font-weight: 500;
-  font-family: "Roboto-Medium";
+  font-family: "Roboto-Medium", sans-serif;
 }
 .about-us-text{
   margin-top: 40px;
@@ -138,11 +145,6 @@ margin: auto;
 margin-top: 35px;
 line-height: 26.1px;
 }
-/* MAIN */
-
-/* h2{
-  font-family: "Roboto-Medium";
-} */
 
 /* MAP */
 
@@ -153,7 +155,8 @@ line-height: 26.1px;
   margin: auto;
 }
 .map-head{
-   margin-left: 80px !important;
+   margin-left: 5px !important;
+   font-family: "Roboto-Medium", sans-serif;
    display: flex;
    justify-content:start;
    height: 47px;
@@ -171,14 +174,14 @@ line-height: 26.1px;
 }
 .map-head-city{
   color: #C41429 !important;
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular", sans-serif;;
   font-weight: 400;
 }
 .divider-red{
   height: 2px;
   color: #C41429;
   background-color: #C41429;
-  margin-left: 415px;
+  margin-left: 335px;
   width: 365px;
 }
 
