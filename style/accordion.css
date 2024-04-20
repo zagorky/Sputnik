@@ -8,7 +8,8 @@
   font-family: "Roboto-Regular";
   font-weight: 500;
   font-size: 40px;
-
+  content: "+";
+  float:right; 
 }
 
 .accordion {
@@ -28,6 +29,17 @@
   align-items: center;
   height: 80px;
   border: none;
+}
+
+.accordion:after {
+  content:url(/images/toggle1.svg); 
+  font-size: 13px;
+  float: right;
+  margin-left: 10px;
+}
+
+.active:after {
+  content: url(/images/toggle2.svg); 
 }
 
 .divider{
