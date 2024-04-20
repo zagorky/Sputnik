@@ -27,7 +27,7 @@ img {
 body {
   min-width: 320px;
   word-break: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
 }
 
 /* global------------------------------------------------------------ */
@@ -83,6 +83,19 @@ body {
   color: var(--color-white);
   font-size: var(--font-size-18px);
 }
+
+/* faq */
+.faq{
+  width: 1140px;
+  height: 666px;
+margin: 0 auto;}
+
+.head-faq{
+  font-family: "Roboto-Bold";
+  font-size: 40px;
+  margin-left: 15px !important;
+}
+
 
 /* video */
 
