@@ -5,13 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/normalize.css">
   <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./style/accordion.css">
   <title>Document</title>
 </head>
 <body>
   
-
+<!--   1 header -->
+  
+  
+<!--  2 swiper -->
+  <section>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="container">
+          <div class="main">
+                      
+            <div class="text">
+              <div><h2>Новый взгляд</h2></div>
+              <div><p>на привычные вещи</p></div>
+              <div><button class="text-button">Посмотреть</button></div>
+            </div>
+            <div class="image">
+              <div><img src="img/photo-1.jpg"></div>
+            </div>
+          </div>
+        </div>      </div>
+        <div class="swiper-slide"><div class="container">
+          <div class="main">
+                  
+            <div class="text">
+              <div><h2>Желтый цвет</h2></div>
+              <div><p>всегда в моде</p></div>
+              <div><button class="text-button">Подробнее</button></div>
+            </div>
+            <div class="image">
+              <div><img src="img/photo-2.jpg"></div>
+            </div>
+                
+                   
+          </div>
+        </div>      </div>
+        <div class="swiper-slide"><div class="container">
+          <div class="main">
+                    
+            <div class="text">
+              <div><h2>Скидка 25%</h2></div>
+              <div><p>на летнюю коллекцию</p></div>
+              <div><button class="text-button">Подробнее</button></div>
+            </div>
+            <div class="image">
+              <div><img src="img/photo-3.jpg"></div>
+            </div>
+          </div>
+                  
+        </div></div>
+        
+      </div>
+      
+      <div class="swiper-pagination"></div>
+      
+    </div>
+  
+  </section>
+  
+<!--  3 photos -->
+  
+  
+<!--  4 video -->
+   <section class="video">
+    <div class="about-us-video">
+      <iframe width="555px" height='420px' src="https://www.youtube.com/embed/b2tsexb8V4k?si=Jzl75xgDzN4raVC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="about-us-content">
+        <h2 class="about-us-head">Кто мы</h2>
+        <div class="about-us-text">
+        <p class="about-us-text1"><strong>SPUTNIK </strong> — универсальные и сдержанные вещи, которые дополняют, а не перебивают. Они не выходят на первый план; 
+        их задача — раскрыть образ своего владельца. Ведь основное для нас — личность человека и вещи, которыми он 
+        наполняет наши рюкзаки и сумки.</p>
+        <p class="about-us-text2">В течение 5 лет мы разрабатываем новые модели и сотрудничаем с международными и локальными брендами.</p>
+        </div>
+    </div>
+  </section>
+  
+<!--   5 info -->
+  
+  
+<!--  6 purchase -->
+  
+  
+<!--  7 form -->
+   <section class="subscribe">
+    <form class="subscribe-form">
+      <header class="subscribe-form-header">
+        <h3 class="subscribe-form-header-title">Подпишись!</h3>
+        <div class="subscribe-form-header-subtitle">Информация о жизни бренда и новых коллекциях</div>
+      </header>
+      <div class="subscribe-form-body">
+        <label for="user-email" class="visually-hidden">Email</label>
+        <input class="subscribe-form-input" id="user-email" placeholder="Ваш email" />
+        <button class="subscribe-form-button" type="submit">Отправить</button>
+      </div>
+    </form>
+  </section>
+ 
+<!-- 8 faq -->
   <section class="faq">
     <h2 class="head-faq">Вопрос-ответ</h2>
 
@@ -55,8 +154,40 @@
       
   </section> 
 
+<!--   9 instagram -->
+  
+    <section class = "instagram">
+    <div class="instagram-container">
+      <header class="instagram-header">
+        <h2 class="instagram-header-title">Наш Instagram</h2>
+      </header>
+      <div class="instagram-body">
+        <div class="instagram-body-container">
+          <img src="./images/1.jpg" alt="">
+          <img src="./images/2.jpg" alt="">
+          <img src="./images/3.jpg" alt="">
+          <img src="./images/4.jpg" alt="">
+          <img src="./images/5.jpg" alt="">
+          <img src="./images/6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
+<!--   10 map -->
+  <section class="map">
+    <!-- задать вопрос почему исчез пробел -->
+    <h2 class="map-head">Купить Sputnik в <pre> </pre><span class='map-head-city'>Нижнем Новгороде</span></h2>
+    <hr class="divider-red">
+    <div class="map-body">
+      <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8849.261393466915!2d44.0077675210398!3d56.32438852093883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d5cb488aa9c9%3A0x4e979735777933f6!2sSkuratov%20Coffee%20roasters!5e0!3m2!1sru!2sru!4v1713547604782!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  
+<!--   11 footer -->
+ 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/accordion.js"></script>
-
+</body>
 </html>
