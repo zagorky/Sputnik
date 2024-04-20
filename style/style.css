@@ -86,6 +86,7 @@ body {
   max-width: 1440px;
   height: 80px;
   display: flex;
+  margin: 0 auto;
 }
 
 .logo{
@@ -94,8 +95,8 @@ body {
 }
 
 .logo__pic{
-  margin-left: 100px;
-}
+padding-left: 100px;
+}  
 
 .nav{
   display: flex;
