@@ -29,18 +29,18 @@
   border: none;
 }
 .radio{
-  display: none;
+  display: none !important;
 }
 
 .accordion:after {
-  content:url("../images/toggle1.svg"); 
+  content:url(../images/toggle1.svg); 
   font-size: 13px;
   float: right;
   margin-left: 10px;
 }
 
 .active:after {
-  content: url("../images/toggle2.svg"); 
+  content: url(../images/toggle2.svg); 
 }
 
 .divider{
@@ -50,7 +50,7 @@
 }
 .active, .accordion:hover {
   color: #C41429;  
-  /* display: block; */
+
 }
 
 .panel {
