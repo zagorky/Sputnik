@@ -371,4 +371,86 @@ line-height: 26.1px;
  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, ); 
 }
 
+.footer{
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+}
 
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo__pic{
+padding-left: 100px;
+}  
+
+.nav{
+  display: flex;
+  flex-grow: 3;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav__item{
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: black;
+  margin-left: 30px;
+}
+
+.nav__item:first-child{
+  margin-left: 75px;
+}
+
+.nav__item:hover{
+  color: #C41429;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 2px red solid;
+}
+
+.inst{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.vk{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.fb{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.divider{
+  background-color:#D5D5D5;
+  color: #D5D5D5;
+  height: 2px;
+}
+
+footer{
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  color: #999999;
+  height: 57.15px;
+  text-align: center;
+}
+
+.inst svg:hover path{
+  stroke: #000000;
+}
+
+.fb svg:hover path{
+  stroke: #000000;
+}
