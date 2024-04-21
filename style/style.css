@@ -102,7 +102,7 @@ body {
 }
 
 .logo__pic{
-padding-left: 100px;
+padding-left: 150px;
 }  
 
 .nav{
@@ -147,7 +147,7 @@ padding-left: 100px;
   flex-grow: 1;
   justify-content: left;
   align-items: center;
-  padding-right: 15%;
+  padding-right: 7%;
 }
 
 .divider{
