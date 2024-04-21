@@ -88,6 +88,74 @@ body {
 /* MAIN */
 
 
+/* header */
+.header{
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo__pic{
+padding-left: 150px;
+}  
+
+.nav{
+  display: flex;
+  flex-grow: 3;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav__item{
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: black;
+  margin-left: 30px;
+}
+
+.nav__item:first-child{
+  margin-left: 75px;
+}
+
+.nav__item:hover{
+  color: #C41429;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 2px red solid;
+}
+
+.phone{
+  display: flex;
+  flex-grow: 2;
+  justify-content: left;
+  align-items: center;
+}
+
+.phonenumber{
+  font-family: Roboto-Medium;
+  margin-left: 6px;
+}
+
+.cart{
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+  align-items: center;
+  padding-right: 7%;
+}
+
+.divider{
+  background-color:#D5D5D5;
+  color: #D5D5D5;
+  height: 2px;
+}
+
 
 /* faq */
 .faq{
