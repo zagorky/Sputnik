@@ -453,7 +453,7 @@ line-height: 26.1px;
 }
 
 .logo__pic{
-padding-left: 100px;
+padding-left: 150px;
 }  
 
 .nav{
@@ -518,7 +518,11 @@ footer{
 
 .inst svg:hover path{
   stroke: #000000;
+}
 
+.fb svg:hover path{
+  stroke: #000000;
+}
 /*   photos */
   
 .catalog{
@@ -598,6 +602,3 @@ footer{
   left: 30px;
 }
 
-.fb svg:hover path{
-  stroke: #000000;
-}
