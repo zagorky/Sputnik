@@ -142,3 +142,9 @@ padding-left: 100px;
   align-items: center;
   padding-right: 15%;
 }
+
+.divider{
+  background-color:#D5D5D5;
+  color: #D5D5D5;
+  height: 2px;
+}
