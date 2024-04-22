@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -406,6 +407,7 @@ line-height: 26.1px;
   background-color: white;
   border: solid 1px black;
   margin-top: 36px;
+  cursor: pointer;
 }
 
 .swiper-pagination{
@@ -441,6 +443,7 @@ line-height: 26.1px;
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, ); 
 }
+
 
 /* footer */
 
