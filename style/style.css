@@ -161,17 +161,11 @@ padding-left: 150px;
 /* faq */
 .faq{
   width: 1140px;
-  height: 666px;
+  max-height:1200px;
+  min-height: 580px;
   margin: 0 auto;
   
 }
-
-.head-faq{
-  font-family: "Roboto-Regular";
-  font-size: 40px;
-  margin-left: 5px !important;
-}
-
 
 /* video */
 
