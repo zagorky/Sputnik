@@ -605,3 +605,55 @@ footer{
   left: 30px;
 }
 
+/* purchase */
+.pokupki{
+  max-width: 1440px;
+  height: 618px;
+  margin: auto;
+  justify-content: center;
+
+}
+.kartochka{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:30px;
+  
+}
+.conta{
+  margin: auto;
+  max-width: 1140px;
+}
+.kartochka div:nth-child(1) {
+  grid-column: 1 / span 3;
+}
+.kartochka div:nth-child(2) {
+  grid-column: 4 / span 3;
+}
+.kartochka div:nth-child(3) {
+  grid-column: 7 / span 3;
+}
+.kartochka div:nth-child(4) {
+  grid-column: 10 / span 3;
+}
+.conta-text{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-family: Roboto-Medium;
+  font-size: 40px;
+}
+.discript{
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+.price{
+  font-family: Roboto-Medium;
+  font-size: 22px;
+}
+.zac{
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 15px;
+}
