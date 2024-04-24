@@ -19,6 +19,7 @@ video
 
 Копейкин Андрей:
 slider
+purchase
 
 Сазанов Роман:
 header
@@ -26,9 +27,8 @@ fooer
 
 Антонова Екатерина: 
 info
-photos
-purchase
 
 Брыгин Кирилл:
 form
 instagram
+photos
