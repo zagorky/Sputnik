@@ -813,7 +813,7 @@ font-weight: 400;
 
 /* responsive style */
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 270px) and (max-width: 480px) {
  /* header */
 
 
