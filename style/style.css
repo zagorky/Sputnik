@@ -828,6 +828,7 @@ font-weight: 400;
   display: block;
   height: 950px;
   margin: auto;
+  padding: 10px 10px;
 }
 .about-us-head{
   font-size: 30px;
@@ -838,14 +839,16 @@ width: 100%;
 
 /* info */
 .info{
-  height: 300px;
+  height: 370px;
+  padding: 10px 10px;
+
 }
 .container1{
   display: block;
 }
 .text1, .text2, .text3{
   display: block;
-  margin: auto;
+  margin: 15px 15px;
 }
 
 
@@ -856,6 +859,10 @@ width: 100%;
 
 
 /* faq */
+.faq{
+  padding: 10px 10px;
+
+}
 .head-faq{
   font-size: 30px;
 }
@@ -866,11 +873,12 @@ width: 100%;
   /* map */
 .map{
   display: block;
+  padding: 10px 10px;
+
 }
 .map-head{
 height: 80px;
 font-size: 30px;
-margin-top: -50px;
 }
 
 /* footer */
