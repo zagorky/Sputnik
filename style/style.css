@@ -447,10 +447,15 @@ footer{
   text-align: center;
 }
 
-.inst svg:hover path{
-  stroke: #000000;
+.socials{
+  display: flex;
+  margin-right: 100px;
 }
 
-.fb svg:hover path{
-  stroke: #000000;
+.inst svg:hover path, .vk svg:hover path, .fb svg:hover path{
+  fill-opacity:0.5;
+  stroke-opacity:0.5;
+}
+.inst:hover, .vk:hover, .fb:hover{
+  cursor: pointer;
 }
