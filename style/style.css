@@ -907,7 +907,7 @@ li{
 .nav{
   justify-content: center;
 }
-.fafablk{
+.fafablk{ 
   display: flex;
   justify-content: center;
   align-items: center;
