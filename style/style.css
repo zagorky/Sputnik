@@ -736,7 +736,7 @@ font-weight: 400;
 }
 
 .logo__pic{
-padding-left: 150px;
+padding-left: 100px;
 }  
 
 .nav{
@@ -804,16 +804,12 @@ footer{
   margin-right: 100px;
 }
 
-
 .inst svg:hover path, .vk svg:hover path, .fb svg:hover path{
   fill-opacity:0.5;
   stroke-opacity:0.5;
 }
 .inst:hover, .vk:hover, .fb:hover{
   cursor: pointer;
-
-.fb svg:hover path{
-  stroke: #000000;
 }
 
 /* responsive style */
