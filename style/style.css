@@ -733,6 +733,7 @@ margin: auto;
 border-bottom: solid 1px #EFEFEF;
 border-width: 100%;
 }
+ 17-editor
 .First-footer-container{
   max-width: 1140px;
   height: 102px;
@@ -741,6 +742,17 @@ border-width: 100%;
   grid-template-columns: repeat(12, 1fr);
   gap: 30px;
   justify-content: center;
+
+
+.logo__pic{
+padding-left: 100px;
+}  
+
+.nav{
+  display: flex;
+  flex-grow: 3;
+  justify-content: left;
+ main
   align-items: center;
   
 }
@@ -781,12 +793,17 @@ li:hover{
   column-gap: 20px;
   
 }
+ 17-editor
+
+
+ main
 .inst svg:hover path, .vk svg:hover path, .fb svg:hover path{
   fill-opacity:0.5;
   stroke-opacity:0.5;
 }
 .inst:hover, .vk:hover, .fb:hover{
   cursor: pointer;
+ 17-editor
 }
 .Second-footer-text{
   display: flex;
@@ -795,6 +812,8 @@ li:hover{
   height: 57.15px;
   color: #999999;
   font-size: 12px;
+
+ main
 }
 
 /* responsive style */
