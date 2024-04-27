@@ -733,7 +733,7 @@ margin: auto;
 border-bottom: solid 1px #EFEFEF;
 border-width: 100%;
 }
- 
+
 .First-footer-container{
   max-width: 1140px;
   height: 102px;
@@ -752,7 +752,6 @@ padding-left: 100px;
   display: flex;
   flex-grow: 3;
   justify-content: left;
- 
   align-items: center;
   
 }
@@ -768,8 +767,6 @@ padding-left: 100px;
 
 .nav-links{
   display: flex
-  
-  
 }
 ul{
   column-gap: 35px ;
@@ -798,17 +795,12 @@ li:hover{
  
   align-items: center;
 }
- 
-
-
- 
 .inst svg:hover path, .vk svg:hover path, .fb svg:hover path{
   fill-opacity:0.5;
   stroke-opacity:0.5;
 }
 .inst:hover, .vk:hover, .fb:hover{
   cursor: pointer;
- 
 }
 .Second-footer-text{
   display: flex;
@@ -816,9 +808,7 @@ li:hover{
   align-items: center;
   height: 57.15px;
   color: #999999;
-  font-size: 12px;
-
- 
+  font-size: 12px;.
 }
 
 /* responsive style */
@@ -871,7 +861,6 @@ width: 100%;
 /* faq */
 .faq{
   padding: 10px 10px;
-
 }
 .head-faq{
   font-size: 30px;
