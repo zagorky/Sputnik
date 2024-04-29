@@ -83,24 +83,38 @@ body {
 }
 
 .header{
-  max-width: 1440px;
+  max-width: 1140px;
   height: 80px;
-  display: flex;
-  margin: 0 auto;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo{
-  display: flex;
+  max-width: 1140px;
+  height: 80px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+  justify-content: center;
   align-items: center;
 }
 
 .logo__pic{
-padding-left: 100px;
+  max-width: 123px;
+  max-height: 45px;
+  grid-column: 1 / span 2;
 }  
 
 .nav{
-  display: flex;
-  flex-grow: 3;
+  max-width: 493px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(12, 1fr);
   justify-content: left;
   align-items: center;
 }
@@ -110,6 +124,10 @@ padding-left: 100px;
   font-size: 16px;
   color: black;
   margin-left: 30px;
+}
+
+.header div:ntn-child(1){
+  grid-column: 3;
 }
 
 .nav__item:first-child{
