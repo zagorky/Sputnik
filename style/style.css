@@ -82,83 +82,84 @@ body {
   font-size: var(--font-size-18px);
 }
 
-.header{
-  max-width: 1140px;
-  height: 80px;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-}
+header{ 
+  height: 80px; 
+  border-bottom: solid 1px #EFEFEF; 
+border-width: 100%; 
+} 
+.First-header{ 
+height: 80px; 
+max-width: 1440px; 
+margin: auto; 
+} 
 
-.logo{
-  max-width: 1140px;
-  height: 80px;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-}
+.First-header-container{ 
+  max-width: 1140px; 
+  height:80px; 
+  display: grid; 
+  margin: auto; 
+  grid-template-columns: repeat(12, 1fr); 
+  gap: 30px; 
+  justify-content: center; 
+  align-items: center; 
+   
+} 
 
-.logo__pic{
-  max-width: 123px;
-  max-height: 45px;
-  grid-column: 1 / span 2;
-}  
+.First-header-container div:nth-child(1) { 
+  grid-column: 1 / span 2; 
+} 
 
-.nav{
-  max-width: 493px;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(12, 1fr);
-  justify-content: left;
-  align-items: center;
-}
+.First-header-container div:nth-child(2){ 
+  grid-column: 3 / span 6; 
+} 
 
-.nav__item{
-  font-family: Roboto-Regular;
-  font-size: 16px;
-  color: black;
-  margin-left: 30px;
-}
+.First-header-container div:nth-child(3){ 
+  grid-column: 9 / span 4; 
+} 
+ 
+.nav-links{ 
+  display: flex;  
+} 
 
-.header div:ntn-child(1){
-  grid-column: 3;
-}
+ul{ 
+  column-gap: 35px ; 
+  padding: 0; 
+} 
 
-.nav__item:first-child{
-  margin-left: 75px;
-}
+li{ 
+  list-style-type: none; 
+  font-family: Roboto-Regular; 
+  font-size: 16px; 
+   
+} 
 
-.nav__item:hover{
-  color: #C41429;
-  cursor: pointer;
-  text-decoration: none;
-  border-bottom: 2px red solid;
-}
-
-.phone{
-  display: flex;
-  flex-grow: 2;
-  justify-content: left;
-  align-items: center;
-}
-
-.phonenumber{
-  font-family: Roboto-Medium;
-  margin-left: 6px;
-}
-
-.cart{
-  display: flex;
-  flex-grow: 1;
-  justify-content: left;
-  align-items: center;
-  padding-right: 15%;
+li:hover{ 
+  text-decoration: underline; 
+  color: #C41429; 
+  cursor: pointer; 
+} 
+ 
+.other{ 
+  display: flex; 
+  justify-content: right; 
+  align-items: center; 
+  column-gap: 20px; 
+   
+} 
+.cart{ 
+  margin-left: 20px; 
+  margin-right: 9px; 
+} 
+.number{ 
+  margin-left: 7px; 
+} 
+.phone:hover, .cart:hover, .number:hover{ 
+  cursor: pointer; 
+} 
+ 
+.num{ 
+  font-family: Roboto-Medium; 
+  font-size: 20px; 
 }
 
 .divider{
