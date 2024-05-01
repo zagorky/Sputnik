@@ -853,8 +853,26 @@ width: 100%;
 
 
 /* purchase */
-
-
+.conta-text{
+  display: flex;
+  justify-content: center;
+}
+.kartochka{
+  display: block;
+}
+.pokupki{
+  height: auto;
+}
+.kartochka img{
+  margin: auto;
+}
+.kartochka p{
+  display: flex;
+  justify-content: center;
+}
+.price{
+  margin-bottom: 12px;
+}
 /* form */
 
 
