@@ -101,13 +101,6 @@ margin: auto;
 
 /* header */
 
-.header{
-  max-width: 1440px;
-  height: 80px;
-  display: flex;
-  margin: 0 auto;
-}
-
 .First-header-container{ 
   max-width: 1140px; 
   height:80px; 
@@ -116,7 +109,6 @@ margin: auto;
   grid-template-columns: repeat(12, 1fr); 
   gap: 30px; 
   justify-content: center; 
-  align-items: center;  
 } 
 .logo{
   display: flex;
@@ -124,7 +116,7 @@ margin: auto;
 }
 
 .logo__pic{
-padding-left: 150px;
+padding-left: 100px;
 }  
 
 .First-header-container div:nth-child(1) { 
@@ -163,38 +155,30 @@ li:hover{
  
 .other{ 
   display: flex; 
-  justify-content: right; 
+  justify-content: left; 
   align-items: center; 
   column-gap: 20px; 
    
 } 
-.cart{ 
-  margin-left: 20px; 
-  margin-right: 9px; 
-} 
 
-.number{ 
-  margin-left: 7px; 
-} 
 .cart:hover, .number:hover{ 
   cursor: pointer; 
 } 
  
 .num{ 
   font-family: Roboto-Medium; 
-  font-size: 20px; 
+  font-size: 20px;
+  margin-left: 7px; 
+}
+
 .cart{
   display: flex;
   flex-grow: 1;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
   padding-right: 7%;
-}
-
-.divider{
-  background-color:#D5D5D5;
-  color: #D5D5D5;
-  height: 2px;
+  margin-left: 20px; 
+  margin-right: 9px; 
 }
 
 /* swiper */
@@ -410,7 +394,6 @@ line-height: 26.1px;
 
 .info{
   width: 100%;
-  /* min-width: 270px; */
   background-color: #F4F4F4; 
   height: 230px;
 }
@@ -424,13 +407,7 @@ max-width: 1140px;
 width: 100%;
 }
 
-/* .container1{
-  margin: 0 auto ;
-  width: 100%;
-  height: 230px;
-  display: flex;
-  background-color: #F4F4F4; 
-}*/
+
 .text1, .text2, .text3{
 margin: 60px auto;
 display:table-cell;
@@ -441,39 +418,6 @@ font-size: 18px;
 font-weight: 400;
 
 }
-/*.text1{
-  width: 360px; 
-  height: 230px;
-  font-size: 16px;
-  margin-top: 59px;
-  margin-left: 150px;
-  margin-right: 30px;
-  font-family: 'Roboto-Regular'; 
-  display: inline-block;
-  text-align: center;
-}
-.text2{
-  width: 360px;
-  height: 230px;
-  font-size: 16px;
-  margin-top: 59px;
-  font-family: 'Roboto-Regular'; 
-  display: inline-block;
-  text-align: center;
-  
-}
-.text3{
-  width: 360px;
-  height: 230px;
-  font-size: 16px;
-  margin-top: 59px;
-  margin-right: 150px;
-  margin-left: 30px;
-  font-family: 'Roboto-Regular'; 
-  display: inline-block;
-  text-align: center;
- 
-} */
 
 /* purchase */
 .pokupki{
@@ -610,7 +554,6 @@ font-weight: 400;
 
 .faq{
   max-width: 1140px;
-  /* width: 100%; */
   min-width: 270px;
   max-height:1200px;
   min-height: 580px;
@@ -635,7 +578,6 @@ font-weight: 400;
   background-color: #ffffff;
   color: #222222;
   cursor: pointer;
-  /* padding: 18px; */
   width: 100%;
   text-align: left;
   outline: none;
@@ -855,6 +797,13 @@ li:hover{
 @media screen and (min-width: 270px) and (max-width: 480px) {
  /* header */
 
+ header{
+  height: 100px;
+ }
+.First-header-container{
+  padding: 10px 10px;
+  display: block;
+ }
 
  /* swiper */
 .main{
