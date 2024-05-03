@@ -107,7 +107,6 @@ margin: auto;
   display: flex;
   margin: 0 auto;
 }
->>>>>>> 97768515dc7924fb2fdf5de4544b6450ebb09bd1
 
 .First-header-container{ 
   max-width: 1140px; 
@@ -117,8 +116,7 @@ margin: auto;
   grid-template-columns: repeat(12, 1fr); 
   gap: 30px; 
   justify-content: center; 
-  align-items: center; 
-   
+  align-items: center;  
 } 
 
 .First-header-container div:nth-child(1) { 
@@ -166,10 +164,11 @@ li:hover{
   margin-left: 20px; 
   margin-right: 9px; 
 } 
+
 .number{ 
   margin-left: 7px; 
 } 
-.phone:hover, .cart:hover, .number:hover{ 
+.cart:hover, .number:hover{ 
   cursor: pointer; 
 } 
  
