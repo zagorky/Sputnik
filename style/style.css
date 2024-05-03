@@ -669,7 +669,7 @@ font-weight: 400;
 /* MAP */
 
 .map{
-  max-width: 1440px;
+  max-width: 1140px;
   min-width: 270px;
   height: 626px;
   min-height: auto;
@@ -680,8 +680,6 @@ font-weight: 400;
    font-family: "Roboto-Medium", sans-serif;
    display: flex;
    height: 169px;
-   max-width: 1140px;
-   margin-left: 65px;
    font-size: 40px;
    font-weight: 500;
    vertical-align: bottom;
