@@ -40,6 +40,7 @@ https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-
 •	faq
 •	video
 •	info
+•	header
 
 Копейкин Андрей:
 •	footer
@@ -48,3 +49,5 @@ https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-
 
 Брыгин Кирилл:
 •	form
+•	instagram
+•	photos

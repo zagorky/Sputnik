@@ -669,7 +669,7 @@ font-weight: 400;
 /* MAP */
 
 .map{
-  max-width: 1140px;
+  max-width: 1440px;
   min-width: 270px;
   height: 626px;
   min-height: auto;
@@ -677,15 +677,15 @@ font-weight: 400;
   margin: auto;
 }
 .map-head{
-   margin-left: 5px !important;
    font-family: "Roboto-Medium", sans-serif;
    display: flex;
-   justify-content:start;
-   height: 47px;
-   margin-top: 60px;
-   margin-left: 150px;
+   height: 169px;
+   max-width: 1140px;
+   margin-left: 65px;
    font-size: 40px;
    font-weight: 500;
+   vertical-align: bottom;
+   align-items: flex-end;
 }
 .gmap{
   max-width: 1140px;
@@ -867,8 +867,10 @@ width: 100%;
 
 /* purchase */
 .conta-text{
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  font-size: 30px;
+  padding-left: 10px;
 }
 .kartochka{
   display: block;
@@ -892,6 +894,7 @@ width: 100%;
 /* faq */
 .faq{
   padding: 10px 10px;
+  max-height: 2000px;
 }
 .head-faq{
   font-size: 30px;
@@ -904,11 +907,11 @@ width: 100%;
 .map{
   display: block;
   padding: 10px 10px;
-
 }
 .map-head{
 height: 80px;
 font-size: 30px;
+margin-left: 0px;
 }
 
 /* footer */
