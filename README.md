@@ -39,14 +39,12 @@ https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-
 •	map
 •	faq
 •	video
-•	form
+•	info
 
 Копейкин Андрей:
-•	header
+•	footer
 •	slider
 •	purchase
 
 Брыгин Кирилл:
-•	instagram
-•	photos
-•	footer
+•	form
