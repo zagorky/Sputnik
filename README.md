@@ -4,31 +4,47 @@ https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-
 
 Состав команды:
 
-Мельникова Дарья
-Копейкин Андрей
-Сазанов Роман
-Антонова Екатерина
-Брыгин Кирилл
+•	Мельникова Дарья
+•	Копейкин Андрей
+•	Сазанов Роман
+•	Антонова Екатерина
+•	Брыгин Кирилл
 
 Зоны ответственности: 
 
 Мельникова Дарья: 
-map
-faq
-video
+•	map
+•	faq
+•	video
 
 Копейкин Андрей:
-slider
+•	slider
+•	purchase
 
 Сазанов Роман:
-header
-fooer
+•	header
+•	footer
 
 Антонова Екатерина: 
-info
-photos
-purchase
+•	info
 
 Брыгин Кирилл:
-form
-instagram
+•	form
+•	instagram
+•	photos
+
+Адаптив:
+
+Мельникова Дарья: 
+•	map
+•	faq
+•	video
+•	info
+
+Копейкин Андрей:
+•	footer
+•	slider
+•	purchase
+
+Брыгин Кирилл:
+•	form
