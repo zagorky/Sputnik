@@ -12,6 +12,10 @@ A team project that involves building a responsive multi-section website with va
 
 This is an educational project focused on creating a fully responsive website. It features sections such as a slider, interactive forms, and an embedded video. Each team member was responsible for different components of the site.
 
+##
+
+![SputnikScreenshot](https://github.com/zagorky/Sputnik/blob/main/images/Sputnik.png)
+
 ## Team Collaboration
 
 Design mockup for the Sputnik website: [Figma Link](https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-2&mode=design&t=R3B8ICO2TKKvUq85-0)
