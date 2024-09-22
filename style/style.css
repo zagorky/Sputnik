@@ -640,15 +640,11 @@ font-weight: 400;
 }
 
 .instagram-container{
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-}
-
-.instagram-header{
-  padding-left: 5px;
 }
 
 .instagram-header-title{
@@ -834,6 +830,22 @@ li:hover{
 
 
  /* photos */
+.catalog{
+  height: auto;
+}
+
+.catalog-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-list-item{
+  margin: auto;
+}
+
+.catalog-list-item:last-child{
+  display: none;
+}
 
 
  /* video */
@@ -845,6 +857,8 @@ li:hover{
 }
 .about-us-head{
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 .about-us-text{
 width: 100%;
@@ -867,8 +881,8 @@ width: 100%;
 
 /* purchase */
 .conta-text{
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex; 
+  justify-content: center;
   font-size: 30px;
   padding-left: 10px;
 }
@@ -889,7 +903,17 @@ width: 100%;
   margin-bottom: 12px;
 }
 /* form */
+.subscribe-form-body{
+  column-gap: 15px;
+}
 
+.subscribe-form-input{
+  width: 215px;
+}
+
+.subscribe-form-button{
+  width: 145px;
+}
 
 /* faq */
 .faq{
@@ -898,9 +922,31 @@ width: 100%;
 }
 .head-faq{
   font-size: 30px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+}
+/* instagram */
+.instagram{
+  height: auto;
 }
 
-/* instagram */
+.instagram-header{
+  margin: auto;
+  font-size: 30px;
+
+}
+
+.instagram-body-container{
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.instagram-body-container img{
+  width: 215px;
+  aspect-ratio: 1;
+  margin: auto;
+}
 
 
   /* map */
@@ -912,6 +958,7 @@ width: 100%;
 height: 80px;
 font-size: 30px;
 margin-left: 0px;
+
 }
 
 /* footer */
